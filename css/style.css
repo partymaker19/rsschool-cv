@@ -499,4 +499,8 @@ html {
   .project__block {
     width: 340px;
   }
+
+  .create__line {
+    width: 350px;
+  }
 }
