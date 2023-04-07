@@ -61,7 +61,7 @@ html {
 
 .two_columns {
   display: grid;
-  grid-template-columns: 1fr 2fr;
+  grid-template-columns: 30% 60%;
 }
 
 .about__myself {
@@ -296,10 +296,12 @@ html {
 }
 
 .project__block {
-  margin: 0 auto;
   padding-top: 10px;
-  width: 360px;
-  height: 200px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 20px;
+
 }
 
 .project__block img {
@@ -311,6 +313,8 @@ html {
   display: inline-block;
   overflow: hidden;
   /* Скрываем всё за контуром */
+  width: 360px;
+  height: 200px;
 }
 
 .hover-image-scale img {
@@ -494,10 +498,6 @@ html {
 
   .text__about-me p {
     font-size: 18px;
-  }
-
-  .project__block {
-    width: 340px;
   }
 
   .create__line {
